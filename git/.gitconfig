@@ -1,0 +1,17 @@
+# This is Git's per-user configuration file.
+[alias]
+    oops = reset --soft HEAD~1
+    branch-delete-all = branch | grep -v "*" | xargs git branch -D
+    branch-sorted = branch --sort=-committerdate
+    recent-branches= for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
+[core]
+    editor = vim
+[pull]
+    rebase = true
+[push]
+    default = current
+[user]
+    name = Austin Sharman
+    email = asharman22@gmail.com
+[init]
+	defaultBranch = main
