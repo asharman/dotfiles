@@ -7,4 +7,4 @@ alias gas="git add . && git status";
 . /usr/local/opt/asdf/asdf.sh
 
 eval "$(direnv hook zsh)"
-export PATH="$HOME/.emacs.d/bin:/usr/local/opt/grep/libexec/gnubin:$LOCAL_BIN:$PATH"
+export PATH="$HOME/.emacs.d/bin:/usr/local/opt/grep/libexec/gnubin:$HOME/.elixir-ls/release:$LOCAL_BIN:$PATH"
