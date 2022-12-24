@@ -1,0 +1,10 @@
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
+[user]
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDD54k+q1U+CFiv5sQDQUkqWqWdk/qWerJmyrY59i94wgnBq6wBEOP3N1WwdRcJqFqbCN6S3DKWbfHBDdB+6MlwbUf40Soe9u3/tT8CcQg1e5scs70yendF5IWlKXAmcD/689ujZqRbAJI1grgbIg/aMrj/rPwSlVl0dGhRkqC/YtJPDZsusbSIAC6r9uslmUwsvz9Mrsmc1TvPGtKMEx5mPBU5tlLM114UJbqoE/Xu51nZ0IYq0AJV6vbw0p7aKe0c3DeAIwPyb9Fx8GF2NTW2hU99lU6BwCDvqDAk0Mf7qAl0EXuQN7TsFuDdHbOF9Mng5ql/TZwRfeEoCOiSUPBZpvK2v8gvy5DE8xAL8BNUaRK6cDU+0dZ8lwEsWo+neBF6sct72tXcJ6X+p5Elavp3kRE1st9sZPvENt6FKc2JWP424mb3VQq2jPDTuLtUpFuc4F8/i4GK48/s0JtoQyO3M7Oxa7f++JY2ySNoQUF4Vge5HpCWTW2oj/p7L3wttWoq8ZLCSkQZogA6oqdXcFRGL2IsaNjS96V3uVJZPt9tXAgywRX323/53JE1hUFOzp6prXKmIHmkbjRk1i8QN+vnPkhUgL0tqKeV3UZR6LnII6mhkgi9ZiVCOaXXG/0U9+OZQl5XPLEVyVLwgGeLfpxmXpcU1tz5xwVJQ71GmVrtwQ==
+	email = asharman22@gmail.com
+	name = Austin Sharman
