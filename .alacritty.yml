@@ -1,0 +1,45 @@
+window:
+  padding:
+    x: 6
+    y: 6
+  dimensions:
+    columns: 120
+    lines: 70
+  decorations: full
+  opacity: 0.90
+
+font:
+  size: 12.0
+
+colors:
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+  search:
+    matches:
+      foreground: '#ffffff'
+      background: '#555555'
+    focused_match:
+      foreground: '#ffffff'
+      background: '#777777'
+  normal:
+    black: '#000000'
+    red: '#cc3333'
+    green: '#33cc33'
+    yellow: '#cccc33'
+    blue: '#3333cc'
+    magenta: '#cc33cc'
+    cyan: '#33cccc'
+    white: '#ffffff'
+  bright:
+    black: '#000000'
+    red: '#cc3333'
+    green: '#33cc33'
+    yellow: '#cccc33'
+    blue: '#3333cc'
+    magenta: '#cc33cc'
+    cyan: '#33cccc'
+    white: '#ffffff'
+
+key_bindings:
+  - { key: F, mods: Command|Control, action: ToggleSimpleFullScreen }
