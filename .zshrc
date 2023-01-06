@@ -11,4 +11,6 @@ plugins=(
 
 plugin-load $plugins
 
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=250'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#555555'
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+bindkey '^ ' autosuggest-accept
