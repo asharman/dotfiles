@@ -1,6 +1,7 @@
 ZDOTDIR=$XDG_CONFIG_HOME/zsh
 
 source $ZDOTDIR/functions.zsh
+source $ZDOTDIR/aliases.zsh
 
 plugins=(
   chrissicool/zsh-256color
