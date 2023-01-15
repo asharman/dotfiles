@@ -17,3 +17,5 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 bindkey '^ ' autosuggest-accept
 
 export PATH="$(python3 -m site --user-base)/bin:/opt/homebrew/bin:$PATH"
+
+. /usr/local/opt/asdf/libexec/asdf.sh
